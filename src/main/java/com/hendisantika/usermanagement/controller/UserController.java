@@ -40,7 +40,7 @@ import static java.util.Arrays.asList;
 @RequiredArgsConstructor
 public class UserController {
 
-    private final String TAB_FORM = "formTab";
+    private final String  TAB_FORM = "formTab";
     private final String TAB_LIST = "listTab";
 
     private final UserService userService;
