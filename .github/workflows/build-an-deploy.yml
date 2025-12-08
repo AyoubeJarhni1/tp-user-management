@@ -66,10 +66,10 @@ jobs:
           docker login -u "${{ secrets.DOCKER_USERNAME }}" -p "${{ secrets.DOCKER_PASSWORD }}"
       - name: Push Docker image
         run: |
-          docker push carikk/quality-gate:latest
+          docker push carikk/quality-gate:late
 
 
-      # Set up kubeconfig from secret
+      # Set up kubeconfig from secrets  
       - name: Set up kubeconfig
         run: |
           echo "${{ secrets.KUBECONFIG_CONTENT }}" > $HOME/.kube/config
