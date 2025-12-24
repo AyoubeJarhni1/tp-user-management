@@ -11,6 +11,9 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 @EnableJpaAuditing
 public class UserManagementApplication {
 
+    /**
+     * Méthode Main
+     */
     public static void main(String[] args) {
         SpringApplication.run(UserManagementApplication.class, args);
     }
